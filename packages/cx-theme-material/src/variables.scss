@@ -417,7 +417,7 @@ $cx-button-mods: cx-deep-map-merge($cx-button-mods, (
          box-shadow: none,
          border-color: transparent,
          color: rgba(255, 255, 255, 0.45),
-         background-color: rgba($cx-theme-primary-color, 0.5)
+         background-color: rgba($cx-theme-accent-color, 0.5)
       )
    )
 ));

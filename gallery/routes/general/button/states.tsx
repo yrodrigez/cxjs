@@ -36,6 +36,15 @@ export default <cx>
 					<h6>Rounded</h6>
 					{buttons("rounded")}
             </div>
+            <div visible={{expr: "{$root.$route.theme} == 'material'"}}>
+                <h6>Float</h6>
+                <Button mod="float" icon="search" />
+                <span style="margin: 0 20px 0 10px;">DEFAULT</span>
+                <Button mod="float"  icon="search" disabled />
+                <span style="margin: 0 20px 0 10px;">DISABLED</span>
+                <Button mod="float" icon="search" pressed />
+                <span style="margin: 0 20px 0 10px;">PRESSED</span>
+            </div>
         </Section>
     </FlexRow>
 </cx>

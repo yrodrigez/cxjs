@@ -410,7 +410,7 @@ $cx-button-mods: cx-deep-map-merge($cx-button-mods, (
          background-color: darken($cx-theme-accent-color, 4)
       ),
       active: (
-         background-color: lighten($cx-theme-accent-color, 3),
+         background-color: darken($cx-theme-accent-color, 3),
          box-shadow: 0 8px 12px rgba(0, 0, 0, 0.45)
       ),
       disabled: (

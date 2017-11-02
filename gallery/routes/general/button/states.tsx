@@ -38,11 +38,11 @@ export default <cx>
             </div>
             <div visible={{expr: "{$root.$route.theme} == 'material'"}}>
                 <h6>Float</h6>
-                <Button mod="float" icon="search" />
+                <Button mod="float" icon="add" />
                 <span style="margin: 0 20px 0 10px;">DEFAULT</span>
-                <Button mod="float"  icon="search" disabled />
+                <Button mod="float"  icon="add" disabled />
                 <span style="margin: 0 20px 0 10px;">DISABLED</span>
-                <Button mod="float" icon="search" pressed />
+                <Button mod="float" icon="add" pressed />
                 <span style="margin: 0 20px 0 10px;">PRESSED</span>
             </div>
         </Section>

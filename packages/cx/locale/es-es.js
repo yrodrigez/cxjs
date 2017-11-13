@@ -5,7 +5,7 @@ var c = 'es-es';
 // Field
 Localization.localize(c, 'cx/widgets/Field', {
    requiredText: 'Este campo es requerido.',
-   validatingText: 'La validación está en progreso...',
+   validatingText: 'Validación en progreso...',
    validationExceptionText: 'Algo salió mal durante la validación de entrada. Revise el registro para más detalles.'
 });
 
@@ -19,10 +19,10 @@ Localization.localize(c, 'cx/widgets/LookupField', {
 
 // In common for Calendar and MonthPicker
 const calendarErrorMessages = {
-   maxValueErrorText: 'Seleccione {0: d} o antes.',
-   maxExclusiveErrorText: 'Seleccione una fecha antes {0:d}.',
+   maxValueErrorText: 'Seleccione {0: d} o anterior.',
+   maxExclusiveErrorText: 'Seleccione una fecha anterior {0:d}.',
    minValueErrorText: 'Seleccione {0: d} o posterior',
-   minExclusiveErrorText: 'Seleccione una fecha después de {0: d}.',
+   minExclusiveErrorText: 'Seleccione una fecha posterior a {0: d}.',
 };
 // Calendar
 Localization.localize(c, 'cx/widgets/Calendar', calendarErrorMessages);
@@ -32,7 +32,7 @@ Localization.localize(c, 'cx/widgets/MonthPicker', calendarErrorMessages);
 // In common for DateField and MonthField
 const dateFieldErrorMessages = {
    ...calendarErrorMessages,
-   inputErrorText: 'Fecha introducida no es válida.' 
+   inputErrorText: 'Fecha introducida inválida.' 
 };
 // MonthField
 Localization.localize(c, 'cx/widgets/MonthField', dateFieldErrorMessages);
@@ -41,9 +41,9 @@ Localization.localize(c, 'cx/widgets/DateField', dateFieldErrorMessages);
 
 // NumberField
 Localization.localize(c, 'cx/widgets/NumberField', {
-   maxValueErrorText: 'Ingrese {0: n} o menos.',
+   maxValueErrorText: 'Ingrese {0: n} o menor.',
    maxExclusiveErrorText: 'Ingrese un número menor que {0: n}.',
-   minValueErrorText: 'Ingrese {0: n} o más.',
+   minValueErrorText: 'Ingrese {0: n} o mayor.',
    minExclusiveErrorText: 'Ingrese un número mayor que {0: n}.',
    inputErrorText: 'Número inválido ingresado.'
 });
